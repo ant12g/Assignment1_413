@@ -105,7 +105,7 @@ import java.util.NoSuchElementException;
             public boolean hasNext()
             {
                 return nextPosition <= getLength();
-            } // end hasNext
+            }
 
             public E next()
             {
@@ -135,9 +135,6 @@ import java.util.NoSuchElementException;
                 else
                     throw new IllegalStateException("Illegal call to remove(); " +
                             "next() was not called.");
-            } // end remove
-        } // end IteratorForArrayList
-     // end ArrayListWithIterator
-
-
+            }
+        }
 }
